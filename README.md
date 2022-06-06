@@ -16,6 +16,11 @@ git clone https://github.com/tsukaryo/SupportersHackathon.git
 ```python:docker.py
 cd SupporetrsHackathon
 ```
+dockerコンテナビルド
+```python:docker.py
+docker-compose build
+```
+
 
 dockerコンテナ起動
 ```python:docker.py
