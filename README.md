@@ -8,4 +8,6 @@
 #### 提供できる価値：ただの要約機能ではなく、ESに使用した文章ごと保存しておくことができるため、振り返りが可能（仮）
 
 
-\docker-compose up -d\
+```ruby:qiita.rb
+puts 'The best way to log and share programmers knowledge.'
+```
