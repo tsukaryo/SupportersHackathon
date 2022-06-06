@@ -9,10 +9,20 @@
 
 初めてクローンする時
 ```python:docker.py
-git clone 
+git clone https://github.com/tsukaryo/SupportersHackathon.git
 ```
 
+作業ディレクトリに移動
+```python:docker.py
+cd SupporetrsHackathon
+```
 
+dockerコンテナ起動
 ```python:docker.py
 docker-compose up -d
+```
+
+ローカルで確認(URL)
+```python:docker.py
+http://localhost:8000/
 ```
