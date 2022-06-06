@@ -7,7 +7,7 @@
 #### 解決方法：あらかじめ入力しておいたES解答の文章を必要な文字数に合わせて要約してくれるアプリケーションを開発
 #### 提供できる価値：ただの要約機能ではなく、ESに使用した文章ごと保存しておくことができるため、振り返りが可能（仮）
 
-初めてクローンする時
+##### 初めてクローンする時
 ```python:docker.py
 git clone https://github.com/tsukaryo/SupportersHackathon.git
 ```
@@ -20,7 +20,7 @@ dockerコンテナビルド
 ```python:docker.py
 docker-compose build
 ```
-
+##### 2回目以降
 
 dockerコンテナ起動
 ```python:docker.py
