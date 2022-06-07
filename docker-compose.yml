@@ -1,6 +1,7 @@
 version: '3'
 services:
   db:
+    platform: linux/x86_64 #mac M1チップ使ってると必要かも
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: root
