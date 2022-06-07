@@ -9,7 +9,7 @@
 
 <br><br><br><br>
 
-#### 初めてクローンする時
+#### 初めてクローンする時(作業するディレクトリ配下で)
 ```python:docker.py
 git clone https://github.com/tsukaryo/SupportersHackathon.git
 ```
