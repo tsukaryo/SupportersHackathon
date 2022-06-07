@@ -33,3 +33,8 @@ docker-compose up -d
 ```python:docker.py
 http://localhost:8000/
 ```
+
+コンテナ終了コマンド 
+```
+docker stop $(docker ps -q) 
+```
